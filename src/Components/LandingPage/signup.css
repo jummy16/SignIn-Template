@@ -1,0 +1,115 @@
+.section{
+    height: 20vh;
+}
+.signup-header{
+    width: 333px;
+    height: 32px;
+    top: 124px;
+    left: 519px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 21.38px;
+    font-weight: 600;
+    line-height: 32.07px;
+    margin: auto;
+}
+.job-seeker{
+    width: 4rem;
+    border-radius: 9px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0px;
+    margin-left: 4rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    font-size: 12px;
+}
+.container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1rem;
+}
+.input-field{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #001F3F80;
+    margin: 0.5rem;
+}
+.signup-img{
+    width: 100%;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.ReCaptcha-box{
+    width: 70%;
+    height: 13%;
+    top: 793px;
+    margin-left: 100px;
+    gap: 4.99px;
+    opacity: 0px;
+    border: 1px solid #001F3F80;
+    margin-top: 1rem;
+}
+.ReCaptcha{
+    width: 20%;
+    float: right;
+    margin-top: 0.3rem;
+}
+.ReCaptcha-terms{
+    font-size: 10px;
+    float: right;
+    margin-right: -2.7rem;
+    margin-top: 2.5rem;
+}
+.second-section{
+    margin-top: 4rem;
+}
+.policy{
+    margin-top: -3.5rem;
+    margin-left: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.policy a{
+    text-decoration: none;
+}
+.checkbox{
+    margin-top: 1rem;
+}
+.website-btn{
+    padding: 10px 107px 10px 107px;
+    border-radius: 9.97px;
+    background: #001F3F;
+    margin-left: 2rem;
+    margin-top: -0.5rem;
+}
+.website-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.account{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font-family: Poppins;
+    font-size: 21.38px;
+    font-weight: 400;
+    line-height: 32.07px;
+    color: #001F3F;
+}
+.sign-in{
+    margin-top: -0.7rem;
+    margin-left: 7rem;
+    font-family: Poppins;
+    font-size: 21.38px;
+    font-weight: 600;
+}
+.sign-in a{
+    text-decoration: none;
+    color: #FFBF00;
+}
+    
+
+

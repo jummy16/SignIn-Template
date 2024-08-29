@@ -1,0 +1,61 @@
+.header {
+    background-color: #001F3F;
+    width: 1440px;
+    height: 968px;
+    position: relative;
+}
+
+
+.search-bar {
+    width: 816px;
+    height: 128px;
+    top: 403px;
+    left: 72px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50px;
+
+}
+
+.text {
+    color: #fff;
+}
+
+.jobbero-picture {
+    width: 843px;
+    height: 843px;
+    top: 97px;
+    left: 738px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    left: 450px;
+    top: 0;
+}
+
+.h1-tag {
+    font-family: Poppins;
+    font-size: 68.67px;
+    font-weight: 700;
+    line-height: 103px;
+    text-align: left;
+
+}
+
+.h5-tag {
+    font-family: Poppins;
+    font-size: 29.66px;
+    font-weight: 600;
+    line-height: 44.5px;
+    text-align: left;
+
+}
+
+.h6-tag {
+    font-family: Poppins;
+    font-size: 21.92px;
+    font-weight: 400;
+    line-height: 32.88px;
+    text-align: left;
+
+}
