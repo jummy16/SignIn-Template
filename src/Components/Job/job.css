@@ -1,0 +1,48 @@
+.job-container{
+    margin: 3rem;
+}
+.job-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alert{
+    width: 220px;
+    height: 40px;
+    top: 204px;
+    left: 502px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+    background: #001F3F;
+    font-size: 1rem;
+    margin: 2rem;
+}
+.alert a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.saved{
+    width: 220px;
+    height: 40px;
+    top: 204px;
+    left: 502px;
+    gap: 0px;
+    border-radius: 15px;
+    opacity: 0px;
+    background: #001F3F80;
+    font-size: 1rem;
+    margin: 2rem;
+}
+.saved a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.job-section{
+    text-align: center;
+}
+.first-para{
+font-family: Poppins;
+font-weight: 500;
+font-size: 1.3rem;
+}

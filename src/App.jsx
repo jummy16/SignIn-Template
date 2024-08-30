@@ -1,6 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Landing from './Components/LandingPage/Landing'
-import Signup from './Components/LandingPage/Signup'
+import Signup from './Components/Signup/Signup'
+import Job from './Components/Job/Job'
 
 function App() {
  
@@ -8,10 +9,11 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      
-      
+      <Route element={<Signup/>}path="/"/>
+      <Route element={<Landing/>} path='/Landing'/>
+      <Route element={<Job/>} path='/Job'/>
     </Routes>
-    <Signup/>
+      
     </BrowserRouter>
     
 
