@@ -34,15 +34,15 @@ const Signup = () => {
                     <option>Role</option>
                 </select>
              </div>
-            <div className='ReCaptcha-box'>
-                    <input className='checkbox' type='checkbox'></input>
-                    <img className='ReCaptcha'  src={recaptcha} alt=''/>
-                    <p className='ReCaptcha-terms'>Privacy-Terms</p>
-            </div>
         </form>
         <div>
             <img className='signup-img' src={PICTURE} alt=''/>
         </div>
+    </div>
+    <div className='ReCaptcha-box'>
+                    <input className='checkbox' type='checkbox'></input>
+                    <img className='ReCaptcha'  src={recaptcha} alt=''/>
+                    <p className='ReCaptcha-terms'>Privacy-Terms</p>
     </div>
     <div className='second-section'>
         <h4 className='policy'>By signing up, you agree to our <a href='#'>Privacy Policy</a></h4>
