@@ -1,5 +1,6 @@
 import React from 'react'
 import './job.css'
+import Button from '../Utilities/Button'
 
 const Job = () => {
   return (
@@ -12,9 +13,8 @@ const Job = () => {
             <p className='first-para'>You have not create a job alert.</p>
             <p className='first-para'>Create a job alert today to receive<br/>daily job notification. </p>
             <p className='first-para'>Be first in line for the latest jobs that<br/> match your profile.</p>
-            <button className='alert'><a href='#'>Create Job Alert</a></button>
+            <Button buttonText={'Create Job Alert'} src={'/JobSign'}/> 
         </div>
-        
     </div>
   )
 }

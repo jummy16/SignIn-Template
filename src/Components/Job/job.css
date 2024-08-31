@@ -17,6 +17,7 @@
     background: #001F3F;
     font-size: 1rem;
     margin: 2rem;
+    color: #ffffff;
 }
 .alert a{
     text-decoration: none;
@@ -45,4 +46,57 @@
 font-family: Poppins;
 font-weight: 500;
 font-size: 1.3rem;
+}
+.jobsign-container{
+    text-align: center;
+}
+.jobsign-container h4{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.jobsign-input{
+    width: 20%;
+    padding: 0.7rem;
+    border: 1.47px solid #001F3F80;
+    border-radius: 8px;
+}
+.jobsign{
+    margin-bottom: 0.9rem;
+}
+.jobsign-input::placeholder{
+    color: #001F3F80;
+}
+.label{
+    margin-right: 200px;
+    color: #001F3F;
+}
+.jobsign-option{
+    width: 22%;
+    padding: 0.7rem;
+    border: 1.47px solid #001F3F80;
+    border-radius: 8px;
+    color: #001F3F80;
+}
+
+@media (max-width:900px) {
+    .jobsign-input{
+        width: 50%;
+    }
+    .jobsign-option{
+        width: 55%;
+    }
+    
+}
+@media (max-width:1024px) {
+    .label{
+        margin-right: 80px;
+    }
+    .jobsign-input{
+        width: 30%;
+    }
+    .jobsign-option{
+        width: 35%;
+    }
+    
 }
