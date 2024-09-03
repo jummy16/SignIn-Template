@@ -46,7 +46,7 @@
     padding: 0.8rem;
     opacity: 0px;
     border: 1px solid #001F3F80;
-    margin-top: 0.5rem;
+    margin-top: 2rem;
 }
 .ReCaptcha{
     width: 20%;
@@ -79,12 +79,14 @@
     border-radius: 9.97px;
     background: #001F3F;
     margin-left: 2rem;
-    margin-top: -0.5rem;
-}
-.website-btn a{
+    margin-top: 1rem;
     text-decoration: none;
     color: #FFFFFF;
 }
+/* .website-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+} */
 .account{
     margin-left: 2rem;
     margin-top: 0.5rem;
@@ -121,6 +123,9 @@
     }
     .ReCaptcha-terms{
         margin-right: -2.2rem;
+    }
+    .website-btn{
+        padding: 10px 107px 10px 107px;
     }
     
 }
